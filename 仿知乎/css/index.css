@@ -1,0 +1,246 @@
+.nav_top{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;    
+    height: 52px;
+    box-shadow: 0 3px 10px 0px rgb(235, 232, 232);
+    background-color: white;
+    z-index: 999;
+}
+.logo{
+    margin-right: 25px;
+}
+
+.logo a{
+    display: block;
+    width: 85px;
+    height: 38px;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0px;
+}
+.nav_title{
+    display: flex;
+    width: 600px;
+}
+
+.nav_title li{
+    min-width: 80px;
+}
+.nav_title li:nth-child(2){
+    color: rgb(5,109,232);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    width: 297px;
+}
+
+.input{
+    background-color: rgb(246,246,246);
+    padding: 4px 20px;
+    min-width: 300px;
+    border-radius: 999px;
+    margin-right: 20px;
+}
+
+.searchInput{
+    display: block;
+    flex: 1 1 auto;
+    border: none;
+    outline: 0;
+    background-color: rgb(246,246,246);
+}
+
+.askButton{
+    padding:4px 22px;
+    min-width: 80px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(5,109,232);
+    color: white;
+    border: 0px;
+}
+
+.main{
+    display: flex;
+    background-color: rgb(246,246,246);
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.mainCard{
+    width: 650px;
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgb(235, 232, 232);
+    margin-right: 10px;
+}
+
+.rightCard{
+    display: flex;
+    width: 296px;
+    min-width:296px;
+}
+
+.createCenterCard{
+    display: flex;
+    flex-flow: nowrap column;
+    width: 100%;
+    height: 316px;
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgb(235, 232, 232);
+    padding: 0 14px;
+}
+
+.topNav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+}
+.topNav a{
+    margin: 0 15px;
+}
+.topNav a:hover{
+    color: rgb(5,109,232);
+}
+
+.content{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+}
+.feeds{
+    width: 100%;
+    min-height: 100px;
+    border-top: 0.5px solid rgb(240,242,247);
+    padding: 20px;
+}
+.feeds-title{
+    font-size: 18px;
+}
+
+.feeds-title a:hover{
+        color: rgb(23,81,166);
+}
+.feeds-pic{
+    width: 190px;
+    height: 105px;
+    margin:-2px 18px 4px 0;
+    float: left;
+}
+
+.answer{
+    display: block;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 20px;
+}
+.answer:hover{
+    cursor: pointer;
+    color: rgb(100,100,125);
+}
+
+.readAll span{
+    display: inline-block;
+    border-bottom: 2px solid rgb(23,81,153);
+    border-right: 2px solid rgb(23,81,153);
+    width: 8px;
+    height: 8px;
+    margin-left: 8px;
+    transform:translateY(-4px) rotate(45deg);
+}
+.readAll{
+    color: rgb(23,81,153);
+}
+.readAll:hover{
+    color: rgb(128,128,128);
+}
+.centerNav{
+    display: flex;
+    color: rgb(97, 97, 97);
+    width: 100%;
+    height: 52px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.centerNav span:first-of-type{
+    cursor: pointer;
+    display: block;
+    width: 180px;
+}
+.centerNav span:nth-of-type(2){
+    cursor: pointer;
+    font-size: 12px;
+}
+.navTop{
+    display: flex;
+    flex-flow: nowrap row;
+    height: 92px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navTop div{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-flow: nowrap column;
+}
+.navTop div span{
+    margin-top: 8px;
+}
+
+.scrollCard{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    height: 98px;
+    background-color: rgb(249,249,250);
+    border-radius: 10px;
+}
+.scrollCard div{
+    flex: 2;
+    cursor: pointer;
+}
+.scrollCard div span:first-of-type{
+    display: block;
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+.scrollCard div span:last-of-type{
+    display: block;
+    font-size: 12px;
+    color: rgb(179,179,179);
+    margin-top: 10px;
+}
+.scrollCard img{
+    width: 78px;
+    height: 78px;
+    flex: 1;
+    border-radius: 5px;
+}
+.inCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    border: 1px solid rgb(130,182,243);
+    margin-top: 18px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(33,126,235);
+}
+
+
+
